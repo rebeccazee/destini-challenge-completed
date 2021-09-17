@@ -40,17 +40,17 @@ class StoryBrain {
 
 //TODO: Step 8 - Create a method called getStory() that returns the first storyTitle from _storyData.
   String getStory() {
-    return _storyData[_storyNumber].storyTitle;
+    return _storyData[_storyNumber].storyTitle as String;
   }
 
 //TODO: Step 11 - Create a method called getChoice1() that returns the text for the first choice1 from _storyData.
   String getChoice1() {
-    return _storyData[_storyNumber].choice1;
+    return _storyData[_storyNumber].choice1 as String;
   }
 
 //TODO: Step 12 - Create a method called getChoice2() that returns the text for the first choice2 from _storyData.
   String getChoice2() {
-    return _storyData[_storyNumber].choice2;
+    return _storyData[_storyNumber].choice2 as String;
   }
 
 //TODO: Step 16 - Create a property called storyNumber which starts with a value of 0. This will be used to track which story the user is currently viewing.
